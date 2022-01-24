@@ -1,0 +1,344 @@
+@media (max-width: 767px) {
+    /*Шапка*/
+    .logo_seti {
+        display: none;
+    }
+    .vector {
+        padding: 0;
+        margin-right: 20px;
+    }
+    .header_body3 {
+        min-width: 320px;
+        height: 60%;
+    }
+    .header_list2 li {
+        padding: 11px 0 11px 17px;
+        text-transform: uppercase;
+        color: black;
+        font-size: 16px;
+    }
+    .footer_phone1 {
+        margin-top: 230px
+    }
+    .footer_phone1 .footer_phone {
+        margin-left: 17px;
+    }
+    .footer_phone1 #ph1 {
+        padding-top: 23px;
+        border-top: 1px solid black;
+    }
+    .footer_phone1 #ph2 {
+        margin: 20px 0 0 0;
+    }
+    .footer_phone1 #ph3 {
+        margin: 20px 0 20px 0;
+    }
+    .mail_menu {
+        padding: 23px 0 0 0;
+        border-top: 1px solid black;
+    }
+    .seti_menu {
+        display: flex;
+        padding-top: 32px;
+    }
+    .seti_menu img {
+        width: 45px;
+        padding-right: 25px;
+    }
+    /*Баннер*/
+    .block_banner {
+        height: 100%;
+    }
+    .banner1 {
+        background: #1D252C url(../img/banner768.svg) top no-repeat;
+    }
+    .banner2 {
+        background: #1D252C url(../img/banner_desc2.svg) top no-repeat;
+    }
+    .banner3 {
+        background: #1D252C url(../img/banner_plsh3.svg) top no-repeat;
+    }
+    .banner4 {
+        background: #1D252C url(../img/banner_plsh4.svg) top no-repeat;
+    }
+    .banner_text {
+        padding-top: 586px;
+        padding-left: 0;
+    }
+    .banner_txt1 {
+        display: block;
+    }
+    .txt1,.txt2 {
+        line-height: 41px;
+    }
+    .txt3 {
+        font-size: 18px;
+    }
+    .banner_btns button {
+        width: 200px;
+    }
+    .banner_btn2 {
+        margin: 10px 0 58px 0;
+    }
+    /*Преимущества*/
+    .block_advantages {
+        height: 100%;
+    }
+    .adv_content {
+        display: block;
+        padding-bottom: 39px;
+    }
+    .advkkkk_1 ,.adv2 {
+        margin-bottom: 50px;
+    }
+    .adv2 {
+        width: 250px;
+    }
+    /*Блок с описанием завода*/
+    .block_description {
+        height: 100%;
+    }
+    .descr_content {
+        padding-top: 141px;
+    }
+    .descr1 {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        max-width: 330px;
+        min-height: 114px;
+        line-height: 39px;
+    }
+    .descr2 {
+        font-size: 20px;
+        min-height: 180px;
+        margin-left: 30px;
+        line-height: 29px;
+        padding-top: 42px;
+        margin-left: 0;
+    }
+    /*Бетон в наличии*/
+    .block_pricelist {
+        height: 100%;
+        padding-top: 100px;
+    }
+    .pricel_content {
+        margin-bottom: 72px;
+    }
+    .pricel_zag {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 120%;
+    }
+    .betons2 {
+        display: block;
+    }
+    .beton3 {
+        margin: 20px 0 0 0;
+    }
+    .pricel_content .p1 {
+        font-size: 40px;
+        top: 112px;
+        left: 20px;
+        width: 280px;
+    }
+    .pricel_content .p2 {
+        font-size: 25px;
+        position: absolute;
+        bottom: 33px;
+        left: 20px;
+        width: 300px;
+    }
+    /*Блок с презентацией*/
+     .block_presentation {
+        height: 440px;
+        background-size: cover;
+    }
+    .present_play > p {
+        margin: 0 0 0 20px;
+        width: 100%;
+        font-size: 31px;
+        line-height: 45px;
+    }
+    .present_play > img {
+        width: 75px;
+    }
+    /*Новости*/
+    .block_news {
+        height: 100%;
+    }
+    .news_img3_4 {
+        display: block;
+    }
+    .news_img .img1, .news_img .img2,.news_img .img3,.news_img .img4 {
+        width: 100%;
+        height: 228px;
+    }
+    .news_img .img3 {
+        margin: 0 0 20px 0;
+    }
+    .img1 .p1, .img2 .p1,.img3 .p1,.img4 .p1 {
+        position: absolute;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 120%;
+        color: white;
+        opacity: 0.8;
+    }
+    .img1 .p1 {
+        bottom: 87px;
+        left: 13px;
+    }
+    .img2 .p1 {
+        bottom: 70px;
+        left: 13px;
+    }
+    .img3 .p1 {
+        bottom: 87px;
+        left: 13px;
+    }
+    .img4 .p1 {
+        bottom: 70px;
+        left: 13px;
+    }    
+    .img2 .p2,.img3 .p2,.img4 .p2 {
+        font-size: 14px;
+        bottom: 30px;
+        left: 13px;
+        width: 290px;
+    }    
+    .img1 .p2 {
+        font-size: 14px;
+        bottom: 30px;
+        left: 13px;
+    }
+    /*Выполненные работы*/
+    .img1_2 {
+        display: block;
+    }
+    .gallery_content {
+        padding-top: 50px;
+    }
+    .gall_zag_btn p {
+        font-size: 28px;
+    }
+    .gallery_content .img3, .img5_6, .img4 img {
+        display: none;
+    }
+    .gall_img1 {
+        margin: 0 0 20px;
+    }
+    .img4 {
+        background: url(../img/gall4img.svg) center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+    }
+    /*Карта*/
+    .geogr_zag {
+        padding: 136px 0 50px 0;
+        margin-top: 0;
+        font-size: 28px;
+    }
+    .block_postavki {
+        height: 100%;
+    }
+    /*Футер*/
+    .footer_nav, .footer_phone {
+        display: block;
+    }
+    .footer_phone div {
+        margin: 0;
+    }
+    .ul3 > li {
+        font-size: 20px;
+    }
+    .nav3 {
+        padding-top: 50px;
+    }
+    .ul1 > li, .ul2 > li {
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 28px;   
+    }
+    .li_logo img {
+        width: 45px;
+        padding-right: 25px;
+    }
+    #ph1 {
+        margin-top: 43px;
+    }
+    #ph2, #ph3 {
+        margin-top: 30px;
+    }
+    .footer_contacts .footer_phone {
+        margin-bottom: 72px;
+    }
+}
+@media (max-width: 600px) {
+
+    .block_banner {
+        height: 100%;
+        background-size: auto;
+    }
+    .banner1 {
+        background: #1D252C url(../img/banner768.svg) no-repeat;
+    }
+    .banner_text {
+        padding-top: 600px;
+        padding-left: 0;
+    }
+    .banner_txt1 {
+        font-size: 36px;
+        font-weight: 900;
+    }
+    .img1_2 img {
+        width: 100%;
+        height: 100%;
+    }
+    .img4 {
+        background: url(../img/gall4img.svg) center no-repeat;
+        background-size:contain;
+        height: 400px;
+    }
+    .navigation {
+        bottom: 0;
+        top: 490px
+    }
+}
+@media (max-width:390px) {
+    .img4 {
+        height: 300px;
+    }
+    .beton_arrow {
+        width: 20%;
+    }
+}
+@media (max-width:360px) {
+    .block_banner {
+        height: 100%;
+        background-size: auto;
+    }
+    .banner1 {
+        background: #1D252C url(../img/banner360.svg) no-repeat;
+    }
+    .banner2 {
+        background: #1D252C url(../img/banner_ph2.svg) no-repeat;
+    }
+    .banner3 {
+        background: #1D252C url(../img/banner_ph3.svg) no-repeat;
+    }
+    .banner4 {
+        background: #1D252C url(../img/banner_ph4.svg) no-repeat;
+    }
+    .banner_text {
+        padding-top: 364px;
+        padding-left: 0;
+    }
+    .navigation {
+        top: 300px;
+        left: 40%;
+    }
+}
